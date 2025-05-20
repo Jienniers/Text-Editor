@@ -59,7 +59,11 @@
 3. **Build the project**
 
    * Select **Build > Build Solution** (or press `Ctrl+Shift+B`).
-4. **Run the application**
+
+4. **Place the Assets folder in Debug folder**
+   * If there is no debug folder then first debug the project and face the error and then after the folder has been created place the Assests folder in Debug folder 
+
+5. **Run the application**
 
    * Press `F5` (Debug) or `Ctrl+F5` (Release) to launch the editor.
 
