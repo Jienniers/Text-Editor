@@ -1,6 +1,11 @@
 # Text Editor
 
-> A lightweight text editor built in C# with multiple built-in tools and customization options.
+ A lightweight text editor built in C# with multiple built-in tools and customization options.
+
+> ⚠️ **Project Status: Not Actively Maintained**  
+> This repository contains an older project that is no longer being updated.  
+> The codebase is functional but may include bugs or outdated practices.  
+> It remains public for reference and historical purposes.
 
 ## Table of Contents
 
