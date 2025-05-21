@@ -45,6 +45,18 @@
 * Microsoft Windows (10)
 * Visual Studio (2022 or newer)
 
+## Project Structure
+
+- `GS_Text_Editor2.sln` – Solution file for the project.
+- `Form1.cs` – Contains the main UI logic.
+- `Calculator.cs` – Handles calculator window.
+- `Find.cs` – Handles the find-word Window.
+- `GoTo.cs` – Handles the window which assists in jumping to a specific line.
+- `Replace.cs` – Handles the Window which can replace a word.
+- `WordCout.cs` – Shows the Word Count window.
+- `Settings.cs` – Manages user preferences and settings.
+- `SettingsAppearance.cs` – Handles the Settings window Appearence section.
+
 ## Installation
 
 1. **Clone the repository**
