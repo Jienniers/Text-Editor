@@ -1,105 +1,141 @@
-# Text Editor
+# ✨ GS Text Editor
 
- A lightweight text editor built in C# with multiple built-in tools and customization options.
+A lightweight and customizable text editor built in **C#**, packed with features beyond a standard notepad! 📝
 
-> ⚠️ **Project Status: Not Actively Maintained**  
-> This repository contains an older project that is no longer being updated.  
-> The codebase is functional but may include bugs or outdated practices.  
-> It remains public for reference and historical purposes.
+> ⚠️ **Project Status: Not Actively Maintained**
+> This project is no longer being updated but remains public for reference and learning purposes. Some parts of the code may be outdated or include minor bugs.
 
-## Table of Contents
+---
 
-* [Description](#description)
-* [Features](#features)
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Project Structure](#project-structure)
-* [Screenshots](#screenshots)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
+## 📚 Table of Contents
 
-## Description
+* [📌 Description](#-description)
+* [🚀 Features](#-features)
+* [🛠️ Prerequisites](#️-prerequisites)
+* [🧰 Installation](#-installation)
+* [🗂️ Project Structure](#️-project-structure)
+* [🖼️ Screenshots](#-screenshots)
+* [🤝 Contributing](#-contributing)
+* [📝 License](#-license)
+* [📬 Contact](#-contact)
 
-**GS Text Editor** is a personal project aimed at building a simple yet feature-packed text editor for Windows. I wanted a tool that goes beyond basic notepad functionality — something that includes tools like a calculator, text-to-speech, music playback, and theme customization — all in one place. This project is my way of learning deeper C# Windows development while creating a utility I’d actually use.
+---
 
-## Features
+## 📌 Description
 
-* Create a new window
-* Open existing text files
-* Save and Save As functionality
-* Print documents
-* Preview Print before
-* Built-in calculator
-* Text-to-speech engine
-* Add Images (though not with text just able to display images, images are included in print preview)
-* Theme selection (light/dark)
-* Built-in music player
-* Customizable menu strip and toolbar
-* Built in time display
-* Customization with dedicated settings window
+**GS Text Editor** is a personal project created to go beyond the simplicity of Notepad. I wanted something that included utility tools like a calculator, text-to-speech, theme switching, and even music playback — all in one desktop application. 🎯
 
-## Prerequisites
+It served as a great way to deepen my understanding of **C#** and Windows Forms development while building something practical.
 
-* Microsoft Windows (10)
-* Visual Studio (2022 or newer)
+---
 
-## Project Structure
+## 🚀 Features
 
-- `GS_Text_Editor2.sln` – Solution file for the project.
-- `Form1.cs` – Contains the main UI logic.
-- `Calculator.cs` – Handles calculator window.
-- `Find.cs` – Handles the find-word Window.
-- `GoTo.cs` – Handles the window which assists in jumping to a specific line.
-- `Replace.cs` – Handles the Window which can replace a word.
-- `WordCout.cs` – Shows the Word Count window.
-- `Settings.cs` – Manages user preferences and settings.
-- `SettingsAppearance.cs` – Handles the Settings window Appearence section.
+✅ Create a new document window
+<br>
+✅ Open and edit existing text files
+<br>
+✅ Save and Save As functionality with multiple formats
+<br>
+✅ Print support with print preview 🖨️
+<br>
+✅ 🧮 Built-in Calculator
+<br>
+✅ 🗣️ Text-to-Speech engine
+<br>
+✅ 🖼️ Add and view images (image support included in print preview)
+<br>
+✅ 🌓 Theme toggle (Light/Dark mode)
+<br>
+✅ 🎵 Integrated Music Player
+<br>
+✅ 🧭 Customizable Menu and Toolbar
+<br>
+✅ ⏲️ Built-in Time Display
+<br>
+✅ ⚙️ Dedicated Settings Window for preferences
 
-## Installation
+---
+
+## 🛠️ Prerequisites
+
+* 🪟 Microsoft Windows 10
+* 🧰 Visual Studio 2022 or newer
+
+---
+
+## 🧰 Installation
 
 1. **Clone the repository**
 
    ```bash
    git clone https://github.com/Jienniers/Text-Editor.git
    ```
+
 2. **Open the solution**
 
    * Launch Visual Studio.
-   * Go to **File > Open > Project/Solution** and select `GS_Text_Editor2.sln` in the `Text-Editor` folder.
+   * Navigate to `File > Open > Project/Solution` and open `GS_Text_Editor2.sln` in the root folder.
+
 3. **Build the project**
 
-   * Select **Build > Build Solution** (or press `Ctrl+Shift+B`).
+   * Select `Build > Build Solution` or press `Ctrl+Shift+B`
 
-4. **Place the Assets folder in Debug folder**
-   * If there is no debug folder then first debug the project and face the error and then after the folder has been created place the Assests folder in Debug folder 
+4. **Prepare assets**
+
+   * If the `Debug` folder doesn’t exist, run the build once to generate it.
+   * Place the `Assets` folder inside the `Debug` folder.
 
 5. **Run the application**
 
-   * Press `F5` (Debug) or `Ctrl+F5` (Release) to launch the editor.
+   * Press `F5` to launch in debug mode or `Ctrl+F5` for release mode.
 
-## Screenshots
+---
+
+## 🗂️ Project Structure
+
+```
+Text-Editor/
+├── GS_Text_Editor2.sln         # Solution file
+├── Form1.cs                    # Main UI logic
+├── Calculator.cs               # Calculator tool
+├── Find.cs                     # Find word window
+├── GoTo.cs                     # Jump-to-line window
+├── Replace.cs                  # Replace text tool
+├── WordCout.cs                 # Word count dialog
+├── Settings.cs                 # General settings management
+├── SettingsAppearance.cs       # Theme & appearance configuration
+```
+
+---
+
+## 🖼️ Screenshots
+
 ![App Screenshot](https://github.com/Jienniers/Text-Editor/blob/main/screenshots/SS1.png)
-<br>
 ![App Screenshot](https://github.com/Jienniers/Text-Editor/blob/main/screenshots/SS2.png)
-<br>
 ![App Screenshot](https://github.com/Jienniers/Text-Editor/blob/main/screenshots/SS3.png)
 
-## Contributing
+---
 
-This project is archived and no longer maintained, but contributions are welcome for educational purposes:
+## 🤝 Contributing
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/YourFeature`.
-3. Commit your changes: `git commit -am 'Add your feature'`.
-4. Push to the branch: `git push origin feature/YourFeature`.
-5. Open a Pull Request.
+This repo is archived, but you're welcome to explore, fork, or enhance for learning:
 
-## License
+1. Fork this repository 🍴
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request 🚀
 
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+---
 
-## Contact
+## 📝 License
 
-Maintained by **@Jienniers**. For questions or suggestions, open an issue or reach out on GitHub.
+Released under the **MIT License**. See [LICENSE](LICENSE) for full details.
+
+---
+
+## 📬 Contact
+
+Created & maintained by **[@Jienniers](https://github.com/Jienniers)**.
+Feel free to open an issue for questions, suggestions, or bug reports.
