@@ -1,5 +1,9 @@
 # ✨ GS Text Editor
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform: Windows](https://img.shields.io/badge/Platform-Windows-blue)
+![Status: No Longer Maintained](https://img.shields.io/badge/Status-No%20Longer%20Maintained-lightgrey)
+
 A lightweight and customizable text editor built in **C#**, packed with features beyond a standard notepad! 📝
 
 > ⚠️ **Project Status: Not Actively Maintained**
