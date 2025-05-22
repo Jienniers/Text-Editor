@@ -10,6 +10,8 @@ A lightweight and customizable text editor built in **C#**, packed with features
 
 > ⚠️ **Project Status: Not Actively Maintained**
 > This project is no longer being updated but remains public for reference and learning purposes. Some parts of the code may be outdated or include minor bugs.
+<br>
+🔴 Many major bugs have been reported in this project.
 
 ---
 
